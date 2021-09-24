@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  position:relative;
+}
+.logo {
+  padding: 8px;
+  width: 100px;
+  height: 100px;
+}
+nav {
+  box-shadow: -3px 17px 26px -13px rgba(196, 196, 196, 0.72);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  height: 80px;
+  background-color: white;
+}
+nav > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav > ul li {
+  margin-left: 15px;
+}
+
+nav > ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  height: 70vh;
+}
+
+.aboutus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.intro__img {
+  padding: 20px;
+}
+.intro__img img {
+  height: 300px;
+}
+.intro_overview h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.intro_overview p {
+  width: 90ch;
+  color: rgb(70, 69, 69);
+  line-height: 35px;
+}
+
+.dealersin h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.dealersin_list {
+  display: flex;
+  align-items: center;
+  height: 60%;
+  justify-content: space-evenly;
+}
+
+.dealersin_list ul li {
+  /* list-style-type: none; */
+  padding: 10px 0;
+}
+.contactus h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contactus {
+  padding: 20px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 90%;
+}
+
+form input,
+form textarea {
+  width: 30%;
+  padding: 10px 15px;
+}
+
+form button {
+  cursor: pointer;
+  padding: 10px 30px;
+  width: 20%;
+  color: white;
+  background-color: rgb(41, 109, 41);
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+.image {
+  padding: 20px;
+}
+.image img {
+  height: 300px;
+}
+.overview h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.overview p {
+  width: 90ch;
+  color: rgb(70, 69, 69);
+  line-height: 35px;
+}
+.images{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.images img{
+  border-radius: 30px;
+  height:300px;
+  width:400px;
+}
+.wlogo{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px;
+  text-align: center;
+  line-height:11px;
+  position:absolute;
+  width:350px;
+  height: 55px;;
+  background-color: rgb(104, 245, 104);
+  border-radius: 50px;
+  right:0;
+  bottom:80px;
+}
+.wlogo a{
+  
+  line-height:15px;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh ;
+  padding: 0 25px;
+  box-shadow: -3px -23px 26px -13px rgba(216, 216, 216, 0.72);
+}
+
+footer > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+footer > ul li {
+  margin-left: 15px;
+}
+
+footer > ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-whatsapp {
+  color: #075e54;
+}
+.fa-instagram {
+  color: #dc2743;
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ); */
+}
